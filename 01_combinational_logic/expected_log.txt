@@ -7,6 +7,8 @@ TEST d { 7 a 3 x } sel 1 y a
 TEST d { 7 a 3 x } sel 2 y 3
 TEST d { 7 a 3 x } sel 3 y x
 01_01_mux_question.sv PASS
+01_02_mux_if.sv:33: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+01_02_mux_if.sv:33: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
 TEST d { a b c d } sel 0 y a
 TEST d { a b c d } sel 1 y b
 TEST d { a b c d } sel 2 y c
