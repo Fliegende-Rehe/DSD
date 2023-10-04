@@ -1,0 +1,76 @@
+ALL PROBLEMS 
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_01_mux_question.sv PASS
+01_01_mux_question.sv:80: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_02_mux_if.sv PASS
+01_02_mux_if.sv:89: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_03_mux_case.sv PASS
+01_03_mux_case.sv:85: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_04_mux_index.sv PASS
+01_04_mux_index.sv:87: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_05_mux_gates.sv PASS
+01_05_mux_gates.sv:121: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y a
+TEST d { a b c d } sel 1 y b
+TEST d { a b c d } sel 2 y c
+TEST d { a b c d } sel 3 y d
+TEST d { 7 a 3 x } sel 0 y 7
+TEST d { 7 a 3 x } sel 1 y a
+TEST d { 7 a 3 x } sel 2 y 3
+TEST d { 7 a 3 x } sel 3 y x
+01_06_mux_2n_using_muxes_n.sv PASS
+01_06_mux_2n_using_muxes_n.sv:99: $finish called at 8 (1s)
+TEST d { a b c d } sel 0 y z
+01_07_mux_using_narrow_data_muxes.sv FAIL: a EXPECTED
+01_07_mux_using_narrow_data_muxes.sv:62: $finish called at 1 (1s)
+TEST ~ 0 = z
+01_08_not_gate_using_mux.sv FAIL: 1 EXPECTED
+01_08_not_gate_using_mux.sv:50: $finish called at 1 (1s)
+TEST 0 & 0 = z
+01_09_and_gate_using_mux.sv FAIL: 0 EXPECTED
+01_09_and_gate_using_mux.sv:53: $finish called at 1 (1s)
+TEST 0 | 0 = z
+01_10_or_gate_using_mux.sv FAIL: 0 EXPECTED
+01_10_or_gate_using_mux.sv:53: $finish called at 1 (1s)
+TEST 0 ^ 0 = z
+01_11_xor_gate_using_mux.sv FAIL: 0 EXPECTED
+01_11_xor_gate_using_mux.sv:53: $finish called at 1 (1s)
