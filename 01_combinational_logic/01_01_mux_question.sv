@@ -18,11 +18,12 @@ module mux_4_1
   output [3:0] y
 );
 
-  // TODO
+  wire [3:0] temp1, temp2;
 
-  // Using code for mux_2_1 as an example,
-  // write code for 4:1 mux using "?:" operator
+  assign temp1 = (sel[0] ? d1 : d0);  // First 2:1 Mux
+  assign temp2 = (sel[0] ? d3 : d2);  // Second 2:1 Mux
 
+  assign y = (sel[1] ? temp2 : temp1);  // Final 2:1 Mux, which gives the 4:1 behavior
 
 endmodule
 
