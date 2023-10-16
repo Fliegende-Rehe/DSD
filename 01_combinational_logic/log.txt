@@ -1,4 +1,3 @@
-ALL PROBLEMS 
 TEST d { a b c d } sel 0 y a
 TEST d { a b c d } sel 1 y b
 TEST d { a b c d } sel 2 y c
