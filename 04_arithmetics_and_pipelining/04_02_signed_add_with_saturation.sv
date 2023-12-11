@@ -16,22 +16,26 @@ endmodule
 // Task
 //----------------------------------------------------------------------------
 
-module signed_add_with_saturation
-(
-  input  [3:0] a, b,
-  output reg [3:0] sum
+module signed_add_with_saturation(
+    input signed [3:0] a, b,
+    output reg signed [3:0] sum
 );
-  wire signed [5:0] full_sum = {a[3], a[3], a} + {b[3], b[3], b};
+    // Intermediate sum with one extra bit to detect overflow
+    wire signed [4:0] extended_sum = a + b;
 
-  always @* begin
-    if (full_sum > 4'b0111)
-      sum = 4'b0111;
-    else if (full_sum < 4'b1000)
-      sum = 4'b1000;
-    else
-      sum = full_sum[3:0];
-  end
+    always @(*) begin
+        if (extended_sum > 7) begin
+            sum = 7; // Maximum positive value for 4-bit signed
+        end
+        else if (extended_sum < -8) begin
+            sum = -8; // Minimum negative value for 4-bit signed
+        end
+        else begin
+            sum = extended_sum[3:0]; // Regular sum fits in the range
+        end
+    end
 endmodule
+
 
 //----------------------------------------------------------------------------
 // Testbench

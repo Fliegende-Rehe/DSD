@@ -1,4 +1,4 @@
-# Сборник задач на SystemVerilog для Школы Синтеза Цифровых Схем
+# [Сборник задач на SystemVerilog для Школы Синтеза Цифровых Схем](https://gitlab.pg.innopolis.university/digital-circuit-design/homework)
 
 > **Ни дня без строчки на Верилоге**
 >
