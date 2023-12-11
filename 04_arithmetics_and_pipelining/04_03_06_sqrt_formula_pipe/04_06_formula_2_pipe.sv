@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------
-// Task
+// Task 6
 //----------------------------------------------------------------------------
 
 module formula_2_pipe
@@ -35,12 +35,6 @@ module formula_2_pipe
     //
     // 3. Your solution should save dynamic power by properly connecting
     // the valid bits.
-    //
-    // You can read the discussion of this problem
-    // in the article by Yuri Panchul published in
-    // FPGA-Systems Magazine :: FSM :: Issue ALFA (state_0).
-    // You can download this issue from https://fpga-systems.ru/fsm
-    // or find the article in the 'doc' folder.
 
 
 endmodule

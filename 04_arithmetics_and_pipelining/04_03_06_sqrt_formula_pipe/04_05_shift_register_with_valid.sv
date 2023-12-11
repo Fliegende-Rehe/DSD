@@ -50,7 +50,7 @@ module shift_register
 endmodule
 
 //----------------------------------------------------------------------------
-// Task
+// Task 5
 //----------------------------------------------------------------------------
 
 module shift_register_with_valid
@@ -71,12 +71,6 @@ module shift_register_with_valid
     //
     // Implement a variant of a shift register module
     // that moves a transfer of data only if this transfer is valid.
-    //
-    // For the discussion of shift registers
-    // see the article by Yuri Panchul published in
-    // FPGA-Systems Magazine :: FSM :: Issue ALFA (state_0).
-    // You can download this issue from https://fpga-systems.ru/fsm
-    // or find the article in the 'doc' folder.
 
 
 endmodule
