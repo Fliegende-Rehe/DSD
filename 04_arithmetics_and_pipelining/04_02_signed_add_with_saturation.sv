@@ -13,25 +13,24 @@ module add
 endmodule
 
 //----------------------------------------------------------------------------
-// Task
+// Task 2
 //----------------------------------------------------------------------------
 
 module signed_add_with_saturation(
     input signed [3:0] a, b,
     output reg signed [3:0] sum
 );
-    // Intermediate sum with one extra bit to detect overflow
     wire signed [4:0] extended_sum = a + b;
 
     always @(*) begin
         if (extended_sum > 7) begin
-            sum = 7; // Maximum positive value for 4-bit signed
+            sum = 7;
         end
         else if (extended_sum < -8) begin
             sum = -8; // Minimum negative value for 4-bit signed
         end
         else begin
-            sum = extended_sum[3:0]; // Regular sum fits in the range
+            sum = extended_sum[3:0];
         end
     end
 endmodule

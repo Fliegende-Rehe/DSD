@@ -50,7 +50,7 @@ module shift_register
 endmodule
 
 //----------------------------------------------------------------------------
-// Task 5
+// Task
 //----------------------------------------------------------------------------
 
 module shift_register_with_valid
@@ -71,6 +71,5 @@ module shift_register_with_valid
     //
     // Implement a variant of a shift register module
     // that moves a transfer of data only if this transfer is valid.
-
 
 endmodule

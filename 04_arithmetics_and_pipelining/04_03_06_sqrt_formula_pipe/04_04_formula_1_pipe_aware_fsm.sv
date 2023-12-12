@@ -2,7 +2,8 @@
 // Task 4
 //----------------------------------------------------------------------------
 
-module formula_1_pipe_aware_fsm (
+module formula_1_pipe_aware_fsm
+(
     input               clk,
     input               rst,
 
@@ -12,96 +13,77 @@ module formula_1_pipe_aware_fsm (
     input        [31:0] c,
 
     output reg          res_vld,
-    output reg   [31:0] res,
+    output reg  [31:0]  res,
 
+    // isqrt interface
     output reg          isqrt_x_vld,
-    output reg   [31:0] isqrt_x,
+    output reg  [31:0]  isqrt_x,
 
     input               isqrt_y_vld,
     input        [15:0] isqrt_y
 );
+    typedef enum int {IDLE, CALC_A, CALC_B, CALC_C, WAIT_A, WAIT_B, WAIT_C, DONE} state_t;
+    state_t state, next_state;
 
-    // Define states
-    localparam [1:0] IDLE = 2'd0,
-                     CALC_A = 2'd1,
-                     CALC_B = 2'd2,
-                     CALC_C = 2'd3;
-
-    // State and temporary registers
-    reg [1:0] current_state, next_state;
-    reg [31:0] temp_a, temp_b, temp_c;
     reg [31:0] sum;
+    reg [31:0] sqrt_a, sqrt_b, sqrt_c;
 
-    // FSM State transition logic
-    always @(posedge clk or posedge rst) begin
+    always @(posedge clk) begin
         if (rst)
-            current_state <= IDLE;
+            state <= IDLE;
         else
-            current_state <= next_state;
+            state <= next_state;
     end
 
-    // Next state logic
     always @(*) begin
-        case (current_state)
-            IDLE:
-                next_state = arg_vld ? CALC_A : IDLE;
-            CALC_A:
-                next_state = isqrt_y_vld ? CALC_B : CALC_A;
-            CALC_B:
-                next_state = isqrt_y_vld ? CALC_C : CALC_B;
-            CALC_C:
-                next_state = isqrt_y_vld ? IDLE : CALC_C;
-            default:
+        next_state = state;
+        isqrt_x_vld = 0;
+        res_vld = 0;
+
+        case (state)
+            IDLE: begin
+                if (arg_vld)
+                    next_state = CALC_A;
+            end
+            CALC_A: begin
+                isqrt_x = a;
+                isqrt_x_vld = 1;
+                next_state = WAIT_A;
+            end
+            WAIT_A: begin
+                if (isqrt_y_vld) begin
+                    sqrt_a = isqrt_y;
+                    next_state = CALC_B;
+                end
+            end
+            CALC_B: begin
+                isqrt_x = b;
+                isqrt_x_vld = 1;
+                next_state = WAIT_B;
+            end
+            WAIT_B: begin
+                if (isqrt_y_vld) begin
+                    sqrt_b = isqrt_y;
+                    next_state = CALC_C;
+                end
+            end
+            CALC_C: begin
+                isqrt_x = c;
+                isqrt_x_vld = 1;
+                next_state = WAIT_C;
+            end
+            WAIT_C: begin
+                if (isqrt_y_vld) begin
+                    sqrt_c = isqrt_y;
+                    sum = sqrt_a + sqrt_b + sqrt_c;
+                    next_state = DONE;
+                end
+            end
+            DONE: begin
+                res = sum;
+                res_vld = 1;
                 next_state = IDLE;
+            end
         endcase
     end
-
-    // Output logic and data processing
-    always @(posedge clk) begin
-        if (rst) begin
-            res_vld <= 0;
-            res <= 0;
-            sum <= 0;
-        end
-        else begin
-            case (current_state)
-                CALC_A: begin
-                    if (arg_vld) begin
-                        isqrt_x_vld <= 1;
-                        isqrt_x <= a;
-                        temp_b <= b;
-                        temp_c <= c;
-                    end
-                end
-                CALC_B: begin
-                    if (isqrt_y_vld) begin
-                        sum <= isqrt_y;
-                        isqrt_x_vld <= 1;
-                        isqrt_x <= temp_b;
-                    end
-                end
-                CALC_C: begin
-                    if (isqrt_y_vld) begin
-                        sum <= sum + isqrt_y;
-                        isqrt_x_vld <= 1;
-                        isqrt_x <= temp_c;
-                    end
-                end
-                IDLE: begin
-                    if (isqrt_y_vld) begin
-                        sum <= sum + isqrt_y;
-                        res <= sum;
-                        res_vld <= 1;
-                        isqrt_x_vld <= 0;
-                    end
-                    else if (res_vld) begin
-                        res_vld <= 0;
-                        sum <= 0;
-                    end
-                end
-            endcase
-        end
-    end
-
 endmodule
-

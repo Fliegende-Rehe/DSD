@@ -15,8 +15,6 @@ module formula_1_pipe
     output        res_vld,
     output [31:0] res
 );
-
-    // Instantiate 3 isqrt modules
     wire [15:0] sqrt_a, sqrt_b, sqrt_c;
     wire valid_a, valid_b, valid_c;
 
@@ -50,7 +48,6 @@ module formula_1_pipe
         .y(sqrt_c)
     );
 
-    // Pipeline registers for summing the square roots with latency alignment
     reg [31:0] sum;
     reg sum_valid;
 

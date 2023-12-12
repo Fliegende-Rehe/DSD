@@ -521,8 +521,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    5150 cycle    18
 testbenches/formula_tb.sv formula 1 pipe 0: time    5160 cycle    19                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5170 cycle    20                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5180 cycle    21                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5190 cycle    22                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5200 cycle    23                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    5190 cycle    22                                          res          6
+testbenches/formula_tb.sv formula 1 pipe 0: time    5200 cycle    23     arg          0          0          0
 testbenches/formula_tb.sv formula 1 pipe 0: time    5210 cycle    24                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5220 cycle    25                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5230 cycle    26                                         
@@ -538,8 +538,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    5320 cycle    35
 testbenches/formula_tb.sv formula 1 pipe 0: time    5330 cycle    36                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5340 cycle    37                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5350 cycle    38                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5360 cycle    39                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5370 cycle    40                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    5360 cycle    39                                          res          0
+testbenches/formula_tb.sv formula 1 pipe 0: time    5370 cycle    40     arg          1          1          1
 testbenches/formula_tb.sv formula 1 pipe 0: time    5380 cycle    41                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5390 cycle    42                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5400 cycle    43                                         
@@ -555,8 +555,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    5490 cycle    52
 testbenches/formula_tb.sv formula 1 pipe 0: time    5500 cycle    53                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5510 cycle    54                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5520 cycle    55                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5530 cycle    56                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5540 cycle    57                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    5530 cycle    56                                          res          3
+testbenches/formula_tb.sv formula 1 pipe 0: time    5540 cycle    57     arg          4          4          4
 testbenches/formula_tb.sv formula 1 pipe 0: time    5550 cycle    58                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5560 cycle    59                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5570 cycle    60                                         
@@ -572,8 +572,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    5660 cycle    69
 testbenches/formula_tb.sv formula 1 pipe 0: time    5670 cycle    70                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5680 cycle    71                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5690 cycle    72                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5700 cycle    73                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5710 cycle    74                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    5700 cycle    73                                          res          6
+testbenches/formula_tb.sv formula 1 pipe 0: time    5710 cycle    74     arg         13         13         13
 testbenches/formula_tb.sv formula 1 pipe 0: time    5720 cycle    75                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5730 cycle    76                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5740 cycle    77                                         
@@ -589,8 +589,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    5830 cycle    86
 testbenches/formula_tb.sv formula 1 pipe 0: time    5840 cycle    87                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5850 cycle    88                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5860 cycle    89                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5870 cycle    90                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    5880 cycle    91                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    5870 cycle    90                                          res          9
+testbenches/formula_tb.sv formula 1 pipe 0: time    5880 cycle    91     arg         40         40         40
 testbenches/formula_tb.sv formula 1 pipe 0: time    5890 cycle    92                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5900 cycle    93                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    5910 cycle    94                                         
@@ -606,7 +606,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    6000 cycle   103
 testbenches/formula_tb.sv formula 1 pipe 0: time    6010 cycle   104                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    6020 cycle   105                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    6030 cycle   106                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    6040 cycle   107                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    6040 cycle   107                                          res         18
 testbenches/formula_tb.sv formula 1 pipe 0: time    6050 cycle   108                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    6060 cycle   109                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    6070 cycle   110                                         
@@ -723,7 +723,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    7170 cycle   220
 testbenches/formula_tb.sv formula 1 pipe 0: time    7180 cycle   221                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7190 cycle   222                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7200 cycle   223                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7210 cycle   224                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7210 cycle   224     arg          0          1          0
 testbenches/formula_tb.sv formula 1 pipe 0: time    7220 cycle   225                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7230 cycle   226                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7240 cycle   227                                         
@@ -739,8 +739,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    7330 cycle   236
 testbenches/formula_tb.sv formula 1 pipe 0: time    7340 cycle   237                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7350 cycle   238                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7360 cycle   239                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7370 cycle   240                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7380 cycle   241                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7370 cycle   240                                          res          1
+testbenches/formula_tb.sv formula 1 pipe 0: time    7380 cycle   241     arg          1          2          2
 testbenches/formula_tb.sv formula 1 pipe 0: time    7390 cycle   242                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7400 cycle   243                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7410 cycle   244                                         
@@ -756,8 +756,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    7500 cycle   253
 testbenches/formula_tb.sv formula 1 pipe 0: time    7510 cycle   254                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7520 cycle   255                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7530 cycle   256                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7540 cycle   257                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7550 cycle   258                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7540 cycle   257                                          res          3
+testbenches/formula_tb.sv formula 1 pipe 0: time    7550 cycle   258     arg          4          5          8
 testbenches/formula_tb.sv formula 1 pipe 0: time    7560 cycle   259                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7570 cycle   260                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7580 cycle   261                                         
@@ -773,8 +773,8 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    7670 cycle   270
 testbenches/formula_tb.sv formula 1 pipe 0: time    7680 cycle   271                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7690 cycle   272                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7700 cycle   273                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7710 cycle   274                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7720 cycle   275                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7710 cycle   274                                          res          6
+testbenches/formula_tb.sv formula 1 pipe 0: time    7720 cycle   275     arg         13         14         26
 testbenches/formula_tb.sv formula 1 pipe 0: time    7730 cycle   276                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7740 cycle   277                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7750 cycle   278                                         
@@ -790,9 +790,9 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    7840 cycle   287
 testbenches/formula_tb.sv formula 1 pipe 0: time    7850 cycle   288                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7860 cycle   289                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7870 cycle   290                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7880 cycle   291                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7880 cycle   291                                          res         11
 testbenches/formula_tb.sv formula 1 pipe 0: time    7890 cycle   292                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    7900 cycle   293                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    7900 cycle   293     arg         40         41         80
 testbenches/formula_tb.sv formula 1 pipe 0: time    7910 cycle   294                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7920 cycle   295                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    7930 cycle   296                                         
@@ -808,12 +808,12 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    8020 cycle   305
 testbenches/formula_tb.sv formula 1 pipe 0: time    8030 cycle   306                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8040 cycle   307                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8050 cycle   308                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    8060 cycle   309                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    8060 cycle   309                                          res         20
 testbenches/formula_tb.sv formula 1 pipe 0: time    8070 cycle   310                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8080 cycle   311                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8090 cycle   312                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8100 cycle   313                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    8110 cycle   314                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    8110 cycle   314     arg        121        122        242
 testbenches/formula_tb.sv formula 1 pipe 0: time    8120 cycle   315                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8130 cycle   316                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8140 cycle   317                                         
@@ -829,7 +829,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    8230 cycle   326
 testbenches/formula_tb.sv formula 1 pipe 0: time    8240 cycle   327                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8250 cycle   328                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8260 cycle   329                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    8270 cycle   330                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    8270 cycle   330                                          res         37
 testbenches/formula_tb.sv formula 1 pipe 0: time    8280 cycle   331                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8290 cycle   332                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8300 cycle   333                                         
@@ -842,7 +842,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    8360 cycle   339
 testbenches/formula_tb.sv formula 1 pipe 0: time    8370 cycle   340                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8380 cycle   341                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8390 cycle   342                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    8400 cycle   343                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    8400 cycle   343     arg        364        365        728
 testbenches/formula_tb.sv formula 1 pipe 0: time    8410 cycle   344                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8420 cycle   345                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8430 cycle   346                                         
@@ -858,7 +858,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time    8520 cycle   355
 testbenches/formula_tb.sv formula 1 pipe 0: time    8530 cycle   356                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8540 cycle   357                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8550 cycle   358                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time    8560 cycle   359                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time    8560 cycle   359                                          res         64
 testbenches/formula_tb.sv formula 1 pipe 0: time    8570 cycle   360                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8580 cycle   361                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time    8590 cycle   362                                         
@@ -1011,7 +1011,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10050 cycle   508
 testbenches/formula_tb.sv formula 1 pipe 0: time   10060 cycle   509                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10070 cycle   510                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10080 cycle   511                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10090 cycle   512                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10090 cycle   512     arg 3047153003 1789274837   18303490
 testbenches/formula_tb.sv formula 1 pipe 0: time   10100 cycle   513                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10110 cycle   514                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10120 cycle   515                                         
@@ -1027,13 +1027,13 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10210 cycle   524
 testbenches/formula_tb.sv formula 1 pipe 0: time   10220 cycle   525                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10230 cycle   526                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10240 cycle   527                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10250 cycle   528                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10250 cycle   528                                          res     101778
 testbenches/formula_tb.sv formula 1 pipe 0: time   10260 cycle   529                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10270 cycle   530                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10280 cycle   531                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10290 cycle   532                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10300 cycle   533                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10310 cycle   534                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10310 cycle   534     arg 2399136029 1740993231 2441365795
 testbenches/formula_tb.sv formula 1 pipe 0: time   10320 cycle   535                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10330 cycle   536                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10340 cycle   537                                         
@@ -1049,7 +1049,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10430 cycle   546
 testbenches/formula_tb.sv formula 1 pipe 0: time   10440 cycle   547                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10450 cycle   548                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10460 cycle   549                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10470 cycle   550                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10470 cycle   550                                          res     140115
 testbenches/formula_tb.sv formula 1 pipe 0: time   10480 cycle   551                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10490 cycle   552                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10500 cycle   553                                         
@@ -1058,7 +1058,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10520 cycle   555
 testbenches/formula_tb.sv formula 1 pipe 0: time   10530 cycle   556                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10540 cycle   557                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10550 cycle   558                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10560 cycle   559                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10560 cycle   559     arg 1702038218  506547260 4184391154
 testbenches/formula_tb.sv formula 1 pipe 0: time   10570 cycle   560                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10580 cycle   561                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10590 cycle   562                                         
@@ -1074,7 +1074,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10680 cycle   571
 testbenches/formula_tb.sv formula 1 pipe 0: time   10690 cycle   572                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10700 cycle   573                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10710 cycle   574                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10720 cycle   575                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10720 cycle   575                                          res     128447
 testbenches/formula_tb.sv formula 1 pipe 0: time   10730 cycle   576                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10740 cycle   577                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10750 cycle   578                                         
@@ -1088,7 +1088,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10820 cycle   585
 testbenches/formula_tb.sv formula 1 pipe 0: time   10830 cycle   586                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10840 cycle   587                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10850 cycle   588                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   10860 cycle   589                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   10860 cycle   589     arg 2697245505 1816868056 3156276088
 testbenches/formula_tb.sv formula 1 pipe 0: time   10870 cycle   590                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10880 cycle   591                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   10890 cycle   592                                         
@@ -1104,12 +1104,12 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   10980 cycle   601
 testbenches/formula_tb.sv formula 1 pipe 0: time   10990 cycle   602                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11000 cycle   603                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11010 cycle   604                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11020 cycle   605                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11020 cycle   605                                          res     150739
 testbenches/formula_tb.sv formula 1 pipe 0: time   11030 cycle   606                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11040 cycle   607                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11050 cycle   608                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11060 cycle   609                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11070 cycle   610                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11070 cycle   610     arg 4123332075 3674367414 3813407174
 testbenches/formula_tb.sv formula 1 pipe 0: time   11080 cycle   611                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11090 cycle   612                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11100 cycle   613                                         
@@ -1125,7 +1125,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11190 cycle   622
 testbenches/formula_tb.sv formula 1 pipe 0: time   11200 cycle   623                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11210 cycle   624                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11220 cycle   625                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11230 cycle   626                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11230 cycle   626                                          res     186581
 testbenches/formula_tb.sv formula 1 pipe 0: time   11240 cycle   627                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11250 cycle   628                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11260 cycle   629                                         
@@ -1140,7 +1140,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11340 cycle   637
 testbenches/formula_tb.sv formula 1 pipe 0: time   11350 cycle   638                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11360 cycle   639                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11370 cycle   640                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11380 cycle   641                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11380 cycle   641     arg 1584726716 2500844842   98015755
 testbenches/formula_tb.sv formula 1 pipe 0: time   11390 cycle   642                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11400 cycle   643                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11410 cycle   644                                         
@@ -1156,11 +1156,11 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11500 cycle   653
 testbenches/formula_tb.sv formula 1 pipe 0: time   11510 cycle   654                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11520 cycle   655                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11530 cycle   656                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11540 cycle   657                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11540 cycle   657                                          res      99716
 testbenches/formula_tb.sv formula 1 pipe 0: time   11550 cycle   658                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11560 cycle   659                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11570 cycle   660                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11580 cycle   661                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11580 cycle   661     arg 3270656389 2817676623  499933243
 testbenches/formula_tb.sv formula 1 pipe 0: time   11590 cycle   662                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11600 cycle   663                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11610 cycle   664                                         
@@ -1176,7 +1176,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11700 cycle   673
 testbenches/formula_tb.sv formula 1 pipe 0: time   11710 cycle   674                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11720 cycle   675                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11730 cycle   676                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11740 cycle   677                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11740 cycle   677                                          res     132629
 testbenches/formula_tb.sv formula 1 pipe 0: time   11750 cycle   678                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11760 cycle   679                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11770 cycle   680                                         
@@ -1187,7 +1187,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11810 cycle   684
 testbenches/formula_tb.sv formula 1 pipe 0: time   11820 cycle   685                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11830 cycle   686                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11840 cycle   687                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   11850 cycle   688                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   11850 cycle   688     arg 1059271294 2326416149 4175010801
 testbenches/formula_tb.sv formula 1 pipe 0: time   11860 cycle   689                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11870 cycle   690                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11880 cycle   691                                         
@@ -1203,7 +1203,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   11970 cycle   700
 testbenches/formula_tb.sv formula 1 pipe 0: time   11980 cycle   701                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   11990 cycle   702                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12000 cycle   703                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   12010 cycle   704                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   12010 cycle   704                                          res     145392
 testbenches/formula_tb.sv formula 1 pipe 0: time   12020 cycle   705                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12030 cycle   706                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12040 cycle   707                                         
@@ -1219,7 +1219,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   12130 cycle   716
 testbenches/formula_tb.sv formula 1 pipe 0: time   12140 cycle   717                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12150 cycle   718                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12160 cycle   719                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   12170 cycle   720                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   12170 cycle   720     arg 2971862882 2788555596 3483456927
 testbenches/formula_tb.sv formula 1 pipe 0: time   12180 cycle   721                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12190 cycle   722                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12200 cycle   723                                         
@@ -1235,7 +1235,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   12290 cycle   732
 testbenches/formula_tb.sv formula 1 pipe 0: time   12300 cycle   733                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12310 cycle   734                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12320 cycle   735                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   12330 cycle   736                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   12330 cycle   736                                          res     166340
 testbenches/formula_tb.sv formula 1 pipe 0: time   12340 cycle   737                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12350 cycle   738                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12360 cycle   739                                         
@@ -1249,7 +1249,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   12430 cycle   746
 testbenches/formula_tb.sv formula 1 pipe 0: time   12440 cycle   747                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12450 cycle   748                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12460 cycle   749                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   12470 cycle   750                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   12470 cycle   750     arg 4235045368 1540186295 1338267295
 testbenches/formula_tb.sv formula 1 pipe 0: time   12480 cycle   751                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12490 cycle   752                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12500 cycle   753                                         
@@ -1265,7 +1265,7 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   12590 cycle   762
 testbenches/formula_tb.sv formula 1 pipe 0: time   12600 cycle   763                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12610 cycle   764                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12620 cycle   765                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   12630 cycle   766                                         
+testbenches/formula_tb.sv formula 1 pipe 0: time   12630 cycle   766                                          res     140904
 testbenches/formula_tb.sv formula 1 pipe 0: time   12640 cycle   767                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12650 cycle   768                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   12660 cycle   769                                         
@@ -1385,129 +1385,32 @@ testbenches/formula_tb.sv formula 1 pipe 0: time   13790 cycle   882
 testbenches/formula_tb.sv formula 1 pipe 0: time   13800 cycle   883                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   13810 cycle   884                                         
 testbenches/formula_tb.sv formula 1 pipe 0: time   13820 cycle   885                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13830 cycle   886                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13840 cycle   887                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13850 cycle   888                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13860 cycle   889                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13870 cycle   890                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13880 cycle   891                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13890 cycle   892                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13900 cycle   893                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13910 cycle   894                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13920 cycle   895                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13930 cycle   896                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13940 cycle   897                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13950 cycle   898                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13960 cycle   899                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13970 cycle   900                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13980 cycle   901                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   13990 cycle   902                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14000 cycle   903                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14010 cycle   904                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14020 cycle   905                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14030 cycle   906                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14040 cycle   907                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14050 cycle   908                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14060 cycle   909                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14070 cycle   910                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14080 cycle   911                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14090 cycle   912                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14100 cycle   913                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14110 cycle   914                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14120 cycle   915                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14130 cycle   916                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14140 cycle   917                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14150 cycle   918                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14160 cycle   919                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14170 cycle   920                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14180 cycle   921                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14190 cycle   922                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14200 cycle   923                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14210 cycle   924                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14220 cycle   925                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14230 cycle   926                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14240 cycle   927                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14250 cycle   928                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14260 cycle   929                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14270 cycle   930                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14280 cycle   931                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14290 cycle   932                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14300 cycle   933                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14310 cycle   934                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14320 cycle   935                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14330 cycle   936                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14340 cycle   937                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14350 cycle   938                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14360 cycle   939                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14370 cycle   940                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14380 cycle   941                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14390 cycle   942                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14400 cycle   943                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14410 cycle   944                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14420 cycle   945                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14430 cycle   946                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14440 cycle   947                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14450 cycle   948                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14460 cycle   949                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14470 cycle   950                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14480 cycle   951                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14490 cycle   952                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14500 cycle   953                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14510 cycle   954                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14520 cycle   955                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14530 cycle   956                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14540 cycle   957                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14550 cycle   958                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14560 cycle   959                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14570 cycle   960                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14580 cycle   961                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14590 cycle   962                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14600 cycle   963                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14610 cycle   964                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14620 cycle   965                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14630 cycle   966                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14640 cycle   967                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14650 cycle   968                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14660 cycle   969                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14670 cycle   970                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14680 cycle   971                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14690 cycle   972                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14700 cycle   973                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14710 cycle   974                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14720 cycle   975                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14730 cycle   976                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14740 cycle   977                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14750 cycle   978                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14760 cycle   979                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14770 cycle   980                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14780 cycle   981                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14790 cycle   982                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14800 cycle   983                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14810 cycle   984                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14820 cycle   985                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14830 cycle   986                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14840 cycle   987                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14850 cycle   988                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14860 cycle   989                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14870 cycle   990                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14880 cycle   991                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14890 cycle   992                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14900 cycle   993                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14910 cycle   994                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14920 cycle   995                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14930 cycle   996                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14940 cycle   997                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14950 cycle   998                                         
-testbenches/formula_tb.sv formula 1 pipe 0: time   14960 cycle   999                                         
-testbenches/formula_tb.sv formula 1 pipe 0: FAIL: timeout!
-testbenches/formula_tb.sv:370: $finish called at 14960 (1s)
-testbenches/formula_tb.sv formula 1 pipe 1: PASS
+--------------------------------------------------
+Running tb.i_shift_register_with_valid_tb1.run
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13830 cycle     0                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13840 cycle     1                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13850 cycle     2                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13860 cycle     3 rst                 
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13870 cycle     4 rst                 
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13880 cycle     5 rst                 
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13890 cycle     6     in_data       5b
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13900 cycle     7                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13910 cycle     8     in_data       d7
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13920 cycle     9                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13930 cycle    10                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13940 cycle    11     in_data       77
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13950 cycle    12                     
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13960 cycle    13     in_data       6d
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: FAIL: expected out_vld mismatch. Expected 1, actual 0
+testbenches/shift_register_with_valid_tb.sv:181: $finish called at 13970 (1s)
+testbenches/shift_register_with_valid_tb.sv width 8 depth 8: time   13970 cycle    14testbenches/formula_tb.sv formula 1 pipe 1: PASS
 
 
 number of transfers : arg 23 res 23 per 490 cycles
-testbenches/formula_tb.sv formula 1 pipe 0: FAIL: data is left sitting in the model queue (          1 left):
+testbenches/formula_tb.sv formula 1 pipe 0: PASS
 
-number of transfers : arg 1 res 0 per 994 cycles
+
+number of transfers : arg 23 res 23 per 880 cycles
 testbenches/shift_register_with_valid_tb.sv width 8 depth 8: FAIL: did not run or run was not completed
 testbenches/shift_register_with_valid_tb.sv width 17 depth 13: FAIL: did not run or run was not completed
 testbenches/formula_tb.sv formula 2 pipe 1: FAIL: did not run or run was not completed
