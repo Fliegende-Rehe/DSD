@@ -84,4 +84,4 @@ TEST  4 + -4 =  0
 TEST -4 +  4 =  0
 TEST -4 + -4 = -8
 04_02_signed_add_with_saturation.sv PASS
-04_02_signed_add_with_saturation.sv:125: $finish called at 41 (1s)
+04_02_signed_add_with_saturation.sv:124: $finish called at 41 (1s)

@@ -50,26 +50,37 @@ module shift_register
 endmodule
 
 //----------------------------------------------------------------------------
-// Task
+// Task 5
 //----------------------------------------------------------------------------
 
-module shift_register_with_valid
-# (
-    parameter width = 8, depth = 8
-)
-(
+module shift_register_with_valid #(
+    parameter WIDTH = 8,
+    parameter DEPTH = 8
+) (
     input                clk,
     input                rst,
-
     input                in_vld,
-    input  [width - 1:0] in_data,
-
+    input  [WIDTH - 1:0] in_data,
     output               out_vld,
-    output [width - 1:0] out_data
+    output [WIDTH - 1:0] out_data
 );
-    // Task:
-    //
-    // Implement a variant of a shift register module
-    // that moves a transfer of data only if this transfer is valid.
+
+    logic [WIDTH - 1:0] data [DEPTH-1:0];
+    logic [DEPTH-1:0]   vld;
+
+    always_ff @ (posedge clk) begin
+        if (rst) begin
+            data <= '{default: '0};
+            vld <= '{default: 1'b0};
+        end else begin
+            if (in_vld) begin
+                data <= {data[DEPTH-2:0], in_data};
+                vld <= {vld[DEPTH-2:0], 1'b1};
+            end
+        end
+    end
+
+    assign out_data = data[DEPTH - 1];
+    assign out_vld = vld[DEPTH - 1];
 
 endmodule
